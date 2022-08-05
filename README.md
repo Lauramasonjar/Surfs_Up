@@ -62,14 +62,10 @@ The analysis focuses on the temperature and rainfall from six different weather 
   -	1st quartile: 25% of all data is below 69 °F in December and 73 °F in June.
   -	3rd quartile 75% of all data is below 74 °F in December and 77 °F in June.
 
-<p align="center">
-<img src= "PNG's\December_Temps.png" width="20%" height="20%"><img src= "PNG's\June_Temps.png" width="16.5%" height="16.5%">
-</P>
-<p align="center">
-    <i>Measures of Central Tendency of Temperatures for December and June in Oahu, Hawaii. </i>
-</p>
+#### Measures of Central Tendancy of Temperatures for December and June in Oahu, Hawaii:
+![Surfs_Up](https://github.com/Lauramasonjar/Surfs_Up/blob/main/PNGs/Dec%20Temp%20Statistics.png)
 
-#
+![Surfs_Up](https://github.com/Lauramasonjar/Surfs_Up/blob/main/PNGs/Jun%20Temp%20Statistics.png)
 
 ## In addition Precipitation(Rainfall) analysis for June and December from 2010 to 2017.
 
@@ -89,13 +85,11 @@ The analysis focuses on the temperature and rainfall from six different weather 
   -	1st quartile: 25% of all data is at 0 inches in December and 0 inches in June.
   -	3rd quartile 75% of all data is below 0.15 inches in December and 0.12 inches in June.
 
-<p align="center">
-<img src="PNG's\Dec_Prcp.png" width="20%" height="20%"><img src="PNG's\June_Prcp.png" width="19.8%" height="19.8%">
-</p>
-<p align="center">
-    <i>Measures of Central Tendency of Precipitation for December and June in Oahu, Hawaii.</i> 
-</p>
+#### Measures of Central Tendency of Precipitation for December and June in Oahu, Hawaii:
 
+![Surfs_Up](https://github.com/Lauramasonjar/Surfs_Up/blob/main/PNGs/Dec%20Prcp%20Statistics.png)
+
+![Surfs_Up](https://github.com/Lauramasonjar/Surfs_Up/blob/main/PNGs/Jun%20Prcp%20Statistics.png)
 
 ## Summary
 Above descriptive statistics provides quick results and tell us weather story about the area.
@@ -105,12 +99,9 @@ For more explanations some additional analysis is provided by me.
 
 From the temperature report we can see that there is not much difference in the weather in June and December, indicating mild and steady temperatures year-round. Mean, median and 2nd quartile data are closely together. It means that distribution of the data is not spread out. For information about protentional outliers and other trends we will plot **the box and whiskers chart**.
 
-<p align="center">
-<img src="PNG's\Temp_data(2010-2017).png" width="40%" height="40%"> 
-</p>
-<p align="center">
-<i>Box and Whiskers Plot of Temperatures for December and June in Oahu, Hawaii.</i> 
-</p>
+#### Box and Whiskers Plot of Temperatures for December and June in Oahu, Hawaii:
+
+![Surfs_Up](https://github.com/Lauramasonjar/Surfs_Up/blob/main/PNGs/Box%20and%20Whiskers%20Plot%20Temp.png)
 
 From the graph we can see that there are just a few outliers. There are more outliers below the lower boundary in December, however the minimum temperature is 56 °F. 
 
@@ -122,27 +113,20 @@ Function `calc_temps` that will accept start date and end date in the format '%Y
 ### Design a query to retrieve the of Average tobs data and plot the results.  
 To see the difference year to year I have provided another graph of **Average temprature grouped by year**. 
 
-<p align="center">
-<img src="PNG's\Yearly Tobs(2010-2017).png" width="45%" height="45%"> 
-</p>
-<p align="center">
-<i>Average Temperatures in between year 2010 and year 2017 in Oahu, Hawaii. </i>
-</p>
+#### Average Temperatures in between year 2010 and year 2017 in Oahu, Hawaii:
+
+![Surfs_Up](https://github.com/Lauramasonjar/Surfs_Up/blob/main/PNGs/Avg%20Temp%20By%20Year.png)
 
 #
 ### Precipitation for June and December
 
 The first difference that we notice is the max prcp in June and December (4.43 and 6.42 inches respectively) and in both cases, which is highly above the mean. 
 Standard deviation is also high. And mean, median or 2nd quartile are far apart. Here we understood distribution of the data is highly spread out and indicates the presence of extreme values in the dataset. The easiest way to determine outliers is to plot **box and whiskers chart**.
+#### Box and Whiskers Plot of Precipitation for December and June in Oahu, Hawaii:
 
-<p align="center">
-<img src= "PNG's\Precipitation Data (2010-2017).png" width="40%" height="40%"> 
-</p>
-<p align="center">
-    <i>Box and Whiskers Plot of Precipitation for December and June in Oahu, Hawaii. </i>
-</p>
+![Surfs_Up](https://github.com/Lauramasonjar/Surfs_Up/blob/main/PNGs/Box%20and%20Whiskers%20Plot%20of%20Prcp.png)
 
 - There are 183 outliers in June and 205 outliers in December. 
 - It is enough power to impact the mean, yet 183 and 205 data points out of 1574 and 1405 respectively is not that much. 
 - That indicates isolated extreme rainfall as in precipitation. 
-- This analysis capture weather data for 7 years from 2010 to 2017.
+- This analysis captures weather data for 7 years from 2010 to 2017.
